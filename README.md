@@ -1,29 +1,28 @@
-A real-time network traffic monitoring and anomaly detection dashboard built with Express.js, Node.js, MongoDB, and WebSockets.
-This project simulates real-world network traffic visualization, providing live updates, anomaly alerts, and secure access for concurrent users.
+# 🔐 Secure File Sharing and Access Control System
 
-✨ Features
+A backend system for secure file transfer and access control, built with Node.js, Express.js, PostgreSQL, and JWT.  
+This project ensures robust security with AES-256 encryption, role-based access control (RBAC), and scalable performance for large workloads.
 
-⚡ Real-time Monitoring – WebSocket streams with <200ms latency
+---
 
-🔍 Anomaly Detection – Filters achieving 95% detection accuracy
+## ✨ Features
 
-📡 Scalable REST APIs – Designed for smooth client-server communication
+- 🔒 AES-256 encryption – ensures end-to-end file security  
+- 👥 Role-based access control (RBAC) – fine-grained user permissions  
+- ⚡ High performance – PostgreSQL schema supports 10,000+ operations in <1s  
+- 🌐 Pre-signed URL REST APIs – secure file uploads/downloads  
+- 🐳 Containerized deployment – Dockerized for portability and scalability  
+- 🔑 JWT authentication – token-based secure access  
 
-🔒 JWT Authentication – Secure access for 500+ concurrent users
+---
 
-📈 Optimized Performance – MongoDB queries tuned for 30% faster response
+## 🛠️ Tech Stack
 
-📊 Dashboard Interface – Visualizes traffic metrics and anomalies
+- Backend: Node.js, Express.js  
+- Database: PostgreSQL  
+- Auth & Security: JWT, AES-256 encryption, RBAC  
+- File Access: Pre-signed URL REST APIs  
+- Deployment: Docker  
 
-🛠️ Tech Stack
-
-Backend: Node.js, Express.js
-
-Database: MongoDB
-
-Real-time: WebSockets (Socket.IO)
-
-Auth: JWT (JSON Web Tokens)
-
-Monitoring & Analysis: Custom anomaly detection filters
+---
 
